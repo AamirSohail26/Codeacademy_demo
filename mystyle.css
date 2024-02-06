@@ -1,0 +1,214 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: antiquewhite;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.list ul {
+    list-style-type: none;
+    overflow: hidden;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    text-align: center;
+
+}
+.list ul li {
+    float:left;
+    padding-right: 10px;
+}
+.list ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+}
+.list ul li a:hover {
+    color: blue;
+}
+.login {
+    float:right;}
+@media screen and (max-width: 600px) {
+    .list ul li {float:none;} 
+}
+.search {
+    text-decoration: none;
+    margin-left: 370px;
+    font-size: 23px;
+    border-style: hidden;
+    padding: 10px;
+}
+.search:hover {
+    color: blue;
+    background-color: rgb(199, 197, 197);
+}
+.login {
+    text-decoration: none;
+    border-style: hidden;
+    font-weight: bold;
+}
+.login:hover {
+    color: blue;
+    background-color: rgb(199, 197, 197);
+}
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.girl {
+    height: 400px;
+    width: 450px;
+    border: 1px solid black;
+    margin-top: 150px;
+    box-shadow: gray 0px 10px 10px;
+}
+.email {
+    padding-top: 20px;
+    font-weight: 400px;
+    font-size: 1rem;
+    display: block;
+    color: black;
+    line-height: 1.2;
+    margin-bottom: 0.2rem;
+}
+.password {
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 1rem;
+    display: block;
+    color: black;
+    line-height: 1.2;
+    margin-right: 0.2rem;
+}
+.mail {
+    margin-top: 7px;
+    padding-left: 0.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    font-weight: 400;
+    width: 390px;
+    height: 25px;
+    min-width: auto;
+    color: black;
+    background-color: white;
+    border: 1px solid;
+}
+.mail:hover {
+    border-color: blue;
+}
+.pass {
+    padding-left: 0.5rem;
+    padding-top: 0.75rem;
+    margin-top: 7px;
+    padding-bottom: 0.75rem;
+    font-weight: 400;
+    width: 390px;
+    height: 25px;
+    min-width: auto;
+    color: black;
+    background-color: white;
+    border: 1px solid;
+}
+.pass:hover {
+    border-color: blue;
+}
+.button {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 400px;
+    margin-top: 25px;
+}
+.button:hover {
+    background-color: #003fe3;
+}
+.form {
+    width: 400px;
+}
+.form h1 {
+    font-size: 25px;
+    margin-top: 100px;
+}
+h6 {
+    padding-top: 25px;
+    font-size: 13px;
+    font-weight: normal;
+}
+h5 {
+    padding-top: 15px;
+    font-size: 15px;
+}
+.svg {
+    position: absolute;
+    z-index: -1;
+    height: 400px;
+    width: 450px;
+    top: 220px;
+    left: 170px;
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    font-size: 25px;
+    text-decoration: none;
+}
+.links:hover {
+    background-color: rgba(206, 33, 163, 0.863);
+}
+.links:active {
+    background-color: rgba(16, 1, 46, 0.925);
+}
+.go {
+    text-align: center;
+    width: 50px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: rgb(245, 243, 243);
+    color: lightgreen;
+}
+.fb {
+    border: 1px solid black;
+    padding: 5px;
+    background-color: white;
+    color: blue;
+    text-align: center;
+    width: 50px;
+}
+.linkedin {
+    border: 1px solid black;
+    padding: 5px;
+    background-color: white;
+    color: rgb(75, 64, 102);
+    text-align: center;
+    width: 50px;
+}
+.git {
+    border: 1px solid black;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    width: 50px;
+}
+.apple {
+    border: 1px solid black;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    width: 50px;
+}
